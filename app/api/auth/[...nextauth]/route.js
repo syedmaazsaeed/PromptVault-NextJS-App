@@ -19,7 +19,12 @@ const handler = NextAuth({
 
     },
     async SignIn({ profile }) {
-
+     try {
+        // Every Next js route is something known as serverless route.
+        // serverless -> lambda -> dynamodb
+     } catch (error) {
+        
+     }
     }
 })
 
